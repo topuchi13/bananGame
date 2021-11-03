@@ -13,6 +13,7 @@
 		0D20DA182732873100036EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D20DA162732873100036EDB /* Main.storyboard */; };
 		0D20DA1A2732873100036EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D20DA192732873100036EDB /* Assets.xcassets */; };
 		0D20DA1D2732873100036EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D20DA1B2732873100036EDB /* LaunchScreen.storyboard */; };
+		0D20DA2627328BCC00036EDB /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D20DA2527328BCC00036EDB /* GameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0D20DA192732873100036EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D20DA1C2732873100036EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D20DA1E2732873100036EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D20DA2527328BCC00036EDB /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +60,22 @@
 			children = (
 				0D20DA102732873100036EDB /* AppDelegate.swift */,
 				0D20DA122732873100036EDB /* SceneDelegate.swift */,
-				0D20DA142732873100036EDB /* ViewController.swift */,
-				0D20DA162732873100036EDB /* Main.storyboard */,
+				0D20DA2427328B8A00036EDB /* Main */,
 				0D20DA192732873100036EDB /* Assets.xcassets */,
 				0D20DA1B2732873100036EDB /* LaunchScreen.storyboard */,
 				0D20DA1E2732873100036EDB /* Info.plist */,
 			);
 			path = bananGame;
+			sourceTree = "<group>";
+		};
+		0D20DA2427328B8A00036EDB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0D20DA142732873100036EDB /* ViewController.swift */,
+				0D20DA162732873100036EDB /* Main.storyboard */,
+				0D20DA2527328BCC00036EDB /* GameVC.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				0D20DA152732873100036EDB /* ViewController.swift in Sources */,
 				0D20DA112732873100036EDB /* AppDelegate.swift in Sources */,
+				0D20DA2627328BCC00036EDB /* GameVC.swift in Sources */,
 				0D20DA132732873100036EDB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
