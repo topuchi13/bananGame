@@ -43,7 +43,7 @@ class GameVC: UIViewController {
         Timer.scheduledTimer(withTimeInterval: 0.03, repeats: true, block: { timer in
             if banana.frame.intersects(self.monkeyImage.frame) {
                 if self.bananaCounter == self.winningScore - 1 {
-                    let alert = UIAlertController(title: "Winner winner chicken dinner", message: "I think ten bananas will be enough ^_^", preferredStyle: .alert)
+                    let alert = UIAlertController(title: "Winner winner chicken dinner", message: "I think \(self.winningScore) bananas will be enough ^_^", preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "Start Again", style: .default, handler: { UIAlertAction in
                         self.dismiss(animated: true, completion: nil)
                     }))
